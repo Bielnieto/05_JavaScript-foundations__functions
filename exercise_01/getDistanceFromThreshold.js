@@ -7,15 +7,15 @@
 
 /**
  * 
- * @param {number} value1 
- * @param {number} threshold1 
+ * @param {number} value 
+ * @param {number} threshold
  * @returns {number}
  */
-const getDistanceFromThreshold = function (value1, threshold1) {
+const getDistanceFromThreshold = function (value, threshold) {
     
-    const result1 = value1 - threshold1;
+    const result = value - threshold;
   
-    return result1;
+    return result;
 };
 
 //Exports the function.
