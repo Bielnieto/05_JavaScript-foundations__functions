@@ -8,6 +8,7 @@ const limit3 = 8;
 const limit4 = 10;
 
 //Execcutes the console.log with the function "getDistanceFromThreshold".
+console.log(" ")
 console.log("Exercice 3 | Result 1: ", generateRandomNumberInRange(limit1));
 console.log("Exercice 3 | Result 2: ", generateRandomNumberInRange(limit2));
 console.log("Exercice 3 | Result 3: ", generateRandomNumberInRange(limit3));
