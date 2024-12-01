@@ -20,7 +20,11 @@
  * output: "Sum with value 70 isd left in 30 from number 100"
  */
 
-
+/**
+ * 
+ * @param {number} value 
+ * @returns {string}
+ */
 function getDistanceMessageFromSumTo100(value) {
     const randomNum = Math.floor(Math.random() * 101);
     const sum = value + randomNum;
@@ -31,4 +35,5 @@ function getDistanceMessageFromSumTo100(value) {
     }
 };
 
+//Exports the function.
 export default getDistanceMessageFromSumTo100;
