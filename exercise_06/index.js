@@ -10,7 +10,7 @@ const collection3 = "dfsgh sd gdfs";
 
 const collection4 = "";
 
-//Execcutes the console.log with the function "isGreaterThan".
+//Execcutes the console.log with the function "checkCollectionHasElements".
 console.log(" ")
 console.log("Exercice 6 | Result 1: The collection is empty?", checkCollectionHasElements(collection1));
 console.log("Exercice 6 | Result 2: The collection is empty?", checkCollectionHasElements(collection2));

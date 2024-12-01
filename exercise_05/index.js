@@ -14,7 +14,7 @@ const summand6 = 9;
 const summand7 = 60;
 const summand8 = 30;
 
-//Execcutes the console.log with the function "isGreaterThan".
+//Execcutes the console.log with the function "isAdditionGreaterThanFifty".
 console.log(" ")
 console.log("Exercice 5 | Result 1: The sum of", summand1,"and", summand2, "is 50 or greater than 50?", isAdditionGreaterThanFifty(summand1, summand2));
 console.log("Exercice 5 | Result 2: The sum of", summand3,"and", summand4, "is 50 or greater than 50?", isAdditionGreaterThanFifty(summand3, summand4));
