@@ -15,5 +15,5 @@ const checkCollectionHasElements = function(collection){
     
 };
 
-
+//Exports the function.
 export default checkCollectionHasElements;

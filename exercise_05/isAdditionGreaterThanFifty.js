@@ -17,5 +17,5 @@ const isAdditionGreaterThanFifty = function(summand1, summand2){
 
 };
 
-
+//Exports the function.
 export default isAdditionGreaterThanFifty;

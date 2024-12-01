@@ -17,4 +17,5 @@ function isGreaterThan(value, threshold) {
     
 }
 
+//Exports the function.
 export default isGreaterThan;
