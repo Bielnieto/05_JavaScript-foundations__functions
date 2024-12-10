@@ -4,3 +4,18 @@
  * input: number (threshold)
  * output: boolean
  */
+
+/**
+ * 
+ * @param {number} value 
+ * @param {number} threshold 
+ * @returns {boolean}
+ */
+function isGreaterThan(value, threshold) {
+
+    return value > threshold;
+    
+}
+
+//Exports the function.
+export default isGreaterThan;

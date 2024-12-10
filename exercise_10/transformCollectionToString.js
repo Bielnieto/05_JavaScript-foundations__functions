@@ -17,3 +17,19 @@
  * input: []
  * output: ""
  */
+
+/**
+ * 
+ * @param {array} collection 
+ * @returns {string}
+ */
+function transformCollectionToString(collection) {
+   if (collection.length > 0) {
+      return collection.join(' | ');
+   } else {
+      return '';
+   }
+};
+
+//Exports the function.
+export default transformCollectionToString;

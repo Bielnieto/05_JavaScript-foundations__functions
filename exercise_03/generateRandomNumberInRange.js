@@ -3,3 +3,16 @@
  * input: number (limit)
  * output: number
  */
+
+/**
+ * 
+ * @param {number} limit 
+ * @returns {number}
+ */
+const generateRandomNumberInRange = function (limit){
+
+    return Math.random() * limit | 0;
+};
+
+//Exports the function.
+export default generateRandomNumberInRange;
